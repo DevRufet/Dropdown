@@ -1,0 +1,22 @@
+.navbar{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.btn{
+  display: none;
+}
+.active{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+   .btn{
+     display: flex;
+   }
+
+.navbar{
+  display: none;
+}
+}
